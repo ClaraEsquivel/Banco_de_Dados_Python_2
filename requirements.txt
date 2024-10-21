@@ -1,0 +1,4 @@
+sqlalchemy
+pymysql
+pytest
+ #instala tudo de vez "pip install -r requirements.txt"
