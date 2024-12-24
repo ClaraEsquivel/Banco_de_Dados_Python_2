@@ -20,7 +20,7 @@ session = Session()
 
 @contextmanager
 def get_db():
-    db = Session() #C riar uma sessão para ações no banco de dados.
+    db = Session() #Criar uma sessão para ações no banco de dados.
     try:
         yield db # Caso a sessão realize todas as tarefas, salva a operação.
         db.commit()
